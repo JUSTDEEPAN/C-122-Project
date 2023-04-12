@@ -3,7 +3,7 @@ function preload(){
 
 function setup() {
     canvas = createCanvas(640, 460);
-    canvas.position(110,250);
+    canvas.position(450,250);
     video = createCapture(VIDEO);
     video.hide();
 
@@ -25,7 +25,7 @@ function draw() {
 }
 
 function take_snapshot(){
-    save('student_name.png');
+    save('filtered_photo.png');
 }
 
 function filter_tint() {
